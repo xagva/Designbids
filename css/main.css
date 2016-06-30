@@ -94,7 +94,8 @@ color:#a2a2a2;
 }
 .main_box
 {
-  float:left;
+  width:740px;
+  float:right;
   position:relative;
 }
 
