@@ -51,7 +51,7 @@ color:#a2a2a2;
 
   width:1140px;
   margin:auto;
-  font-family: open sans, Arial;
+  font-family: 'Open Sans', sans-serif;
   vertical-align: middle;
   padding-top: 5px;
 
@@ -60,7 +60,7 @@ color:#a2a2a2;
 .container
 {
   font-size:14px;
-  font-family:open sans, Arial;
+  font-family:'Open Sans', sans-serif;
   padding-top: 50px;
   width:1040px;
   margin:auto;
@@ -73,9 +73,9 @@ color:#a2a2a2;
 }
 
 
-.box1
+.side_box1
 {
-  font-family:Arial;
+  font-family:'Open Sans', sans-serif;
   border:none;
   width:217px;
   height:39px;
@@ -85,17 +85,11 @@ color:#a2a2a2;
 
 
 
-.box1:active {
-    background-color:#83DE97;
-    color:#fff;
-
-
-}
-
-.box1:focus
+.side_box1:focus
 {
+    border:none;
     background-color:#83DE97;
-
+    border-decoration:none;
   color:#fff;
 }
 .main_box
@@ -111,6 +105,6 @@ color:#a2a2a2;
 
 .ques_box
 {
-  background-color:#a2a2a2;
+  background-color:#fafafa;
   height:300px;
 }
