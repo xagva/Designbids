@@ -16,3 +16,15 @@
   font-family:'Open Sans', sans-serif;
   background-color:#59BCFB;
 }
+
+.side_box2
+{
+  border:none;
+    background-color:#83DE97;
+    border-decoration:none;
+  color:#fff;
+    font-family:'Open Sans', sans-serif;
+  width:217px;
+  height:39px;
+  margin-bottom:20px;
+}

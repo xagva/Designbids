@@ -31,7 +31,7 @@ float:right;
   letter-spacing:1.5px;
   text-decoration:none;
 }
-a:hover
+ .link:hover
 {
 color:#a2a2a2;
 }
@@ -48,14 +48,22 @@ color:#a2a2a2;
 
 .cost
 {
-
   width:1140px;
   margin:auto;
   font-family: 'Open Sans', sans-serif;
   vertical-align: middle;
   padding-top: 5px;
-
 }
+
+.link1
+{
+
+  font-family:'Open Sans', sans-serif;
+  color:#fff;
+
+  text-decoration:none;
+}
+
 
 .container
 {
@@ -73,6 +81,16 @@ color:#a2a2a2;
 }
 
 
+.side_box0
+{
+  font-family:'Open Sans', sans-serif;
+  border:none;
+  width:217px;
+  height:39px;
+  margin-bottom:20px;
+
+}
+
 .side_box1
 {
   font-family:'Open Sans', sans-serif;
@@ -85,6 +103,13 @@ color:#a2a2a2;
 
 
 
+.side_box1:hover
+{
+    border:none;
+    background-color:#83DE97;
+    border-decoration:none;
+  color:#fff;
+}
 .side_box1:focus
 {
     border:none;
@@ -92,6 +117,7 @@ color:#a2a2a2;
     border-decoration:none;
   color:#fff;
 }
+
 .main_box
 {
   width:740px;
