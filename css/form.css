@@ -1,7 +1,29 @@
+
+.name_room
+{
+text-align:center;
+  width:100%;
+  font-family:'Open Sans', sans-serif;
+  color:#83DE97;
+  font-weight:bold;
+  font-size:16px;
+  padding-top:10px;
+
+}
+.form-container-sub
+{
+ width:50%;
+  margin:auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
 .form
 {
-  padding: 120px 100px 100px 140px;
-  vertical-alignment:middle;
+width:100%;
+  text-align:left;
+
 }
 
 .box2
@@ -10,6 +32,7 @@
   margin-right:150px;
   width:20%;
   border:none;
+  border-radius:2px;
   height:30px;
   width:78px;
   color:#fff;
@@ -17,3 +40,49 @@
   background-color:#59BCFB;
 }
 
+.form_line
+{
+  color:#000;
+  font-size:14px;
+  font-family:'Open Sans', sans-serif;
+
+}
+.form_sub_line
+{
+  padding-top:5px;
+  color:#000;
+  font-size:12px;
+  font-family:'Open Sans', sans-serif;
+
+}
+
+.rdb
+{
+  visibility:hidden;
+
+}
+
+.label
+{
+ display:inline-block;
+  height:20px;
+  width:105px;
+  vertical-align:middle;
+  font-size:12px;
+  border-radius:2px;
+  padding-top:4px;
+
+  color:#fff;
+  background-color:#1D628B;
+}
+
+.label:on focus
+{
+background-color:#83DE97;
+
+}
+
+.radio
+{
+
+}
