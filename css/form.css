@@ -77,7 +77,10 @@ width:100%;
   font-family:'Open Sans', sans-serif;
 
 }
-
+.rdbb
+{
+  font-size:12px;
+}
 .rdb
 {
   visibility:hidden;
