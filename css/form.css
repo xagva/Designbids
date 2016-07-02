@@ -19,11 +19,24 @@ text-align:center;
   transform: translateY(-50%);
 }
 
+.form-container-sub-alt
+{
+ width:80%;
+  margin:auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
 .form
 {
 width:100%;
   text-align:left;
 
+}
+.form_alt
+{
+  text-align:center;
 }
 
 .box2
