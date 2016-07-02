@@ -83,6 +83,23 @@ width:100%;
   visibility:hidden;
 
 }
+
+td
+{
+  padding-right:20px;
+}
+
+th
+{text-align:left;
+  padding-top:15px;
+  padding-bottom:5px;
+}
+.ward_label_floor
+{
+  height:40px;
+  width:160px;
+}
+
 .image_label_floor
 {
   height:100px;
