@@ -51,14 +51,26 @@ Click on the area you want to explore costs for
    <form action="action_page.php" class="form_alt">
      <p class="form_sub_line">You can choose any type of lights for the room here</p>
      <br>
-     <input type="radio" name = "r2" class="rdb"/>
-  <label for="r3" ><img src="../images/l1.jpg" class="image_label"></label>
-<input type="radio" name = "r2" class="rdb"/>
-  <label for="r3" ><img src="../images/l2.jpg" class="image_label"></label>
-<input type="radio" name = "r2" class="rdb"/>
-  <label for="r3" ><img src="../images/l3.jpg" class="image_label"></label>
-<input type="radio" name = "r2" class="rdb"/>
-  <label for="r3" ><img src="../images/l4.jpg" class="image_label"></label>
+
+     <table>
+       <tr>
+         <td><img src="../images/l1.jpg" class="image_label"></td>
+         <td><img src="../images/l2.jpg" class="image_label"></td>
+<td><img src="../images/l3.jpg" class="image_label"></td>
+<td><img src="../images/l4.jpg" class="image_label"></td>
+       </tr>
+
+     <tr><td><input type="radio" id="l1" name = "lighting" class="rd"/>
+       <label for="l1" >Cove Lights</label></td><td>
+       <input type="radio" id="l2" name = "lighting" class="rd"/>
+       <label for="l2" >Wall Lights</label></td><td>
+       <input type="radio" id="l3" name = "lighting" class="rd"/>
+       <label for="l3" >Focus Lights</label></td><td>
+       <input type="radio" id="l4" name = "lighting" class="rd"/>
+       <label for="l4" >Pendant Lights</label></td><td>
+       </table>
+
+
      <br><br><br>
   <input type="submit" value="NEXT" onfocus="window.location.href='bedroom1.html'" class="box2">
 </form>
