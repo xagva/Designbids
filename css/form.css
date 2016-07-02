@@ -28,6 +28,15 @@ text-align:center;
   transform: translateY(-50%);
 }
 
+.form-container-sub-alt-1
+{
+ width:85%;
+  margin:auto;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
 .form
 {
 width:100%;
@@ -73,6 +82,30 @@ width:100%;
 {
   visibility:hidden;
 
+}
+.image_label_floor
+{
+  height:100px;
+  width:100px;
+}
+
+.image_label
+{
+  height:100px;
+  width:130px;
+}
+.label-alt
+{
+ display:inline-block;
+  height:20px;
+  width:75px;
+  vertical-align:middle;
+  font-size:12px;
+  border-radius:2px;
+  padding-top:4px;
+
+  color:#fff;
+  background-color:#1D628B;
 }
 
 .label
