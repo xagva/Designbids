@@ -50,9 +50,8 @@ width:100%;
 
 .box2
 {
-  margin-left:150px;
-  margin-right:150px;
-  width:20%;
+  margin-left:60px;
+  width:50%;
   border:none;
   border-radius:2px;
   height:30px;
@@ -77,9 +76,12 @@ width:100%;
   font-family:'Open Sans', sans-serif;
 
 }
+
 .rdbb
 {
   font-size:12px;
+  text-align:left;
+
 }
 .rdb
 {
@@ -144,11 +146,7 @@ th
   background-color:#1D628B;
 }
 
-.label:on focus
-{
-background-color:#83DE97;
 
-}
 
 .radio
 {

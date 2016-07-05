@@ -47,15 +47,30 @@ Click on the area you want to explore costs for
  <div class="form-container">
 
    <div class="name_room">Tsettest</div>
-    <div class="form-container-sub-alt">
+<div class="form-container-sub-alt-1">
    <form action="action_page.php" class="form_alt">
-     <p class="form_sub_line">Does this room need Waterproofing? By default, waterproofing is calculated for all walls in a given room. </p>
-    <br>
-<input type="radio"  name = "r" class="rdb"/>
-  <label for="r3" class="label-alt">Yes</label>
-<input type="radio"  name = "r" class="rdb"/>
-  <label for="r3" class="label-alt">No</label>
+     <p class="form_sub_line">Select the type of flooring you prefer here</p>
+     <br>
 
+     <table>
+       <tr>
+         <td><img src="../images/hob.jpeg" class="image_label_floor"></td>
+         <td><img src="../images/chimney.jpg" class="image_label_floor"></td>
+<td><img src="../images/sink.jpg" class="image_label_floor"></td>
+<td><img src="../images/microwave.jpg" class="image_label_floor"></td>
+<td><img src="../images/oven.jpg" class="image_label_floor"></td>
+       </tr>
+     <tr><td><input type="radio" id="r1" name = "flooring" class="rd"/>
+       <label for="r1" >Hob</label></td><td>
+       <input type="radio" id="r2" name = "flooring" class="rd"/>
+       <label for="r2" >Chimney</label></td><td>
+       <input type="radio" id="r3" name = "flooring" class="rd"/>
+       <label for="r3" >Sink</label></td><td>
+       <input type="radio" id="r4" name = "flooring" class="rd"/>
+       <label for="r4" >Inbuilt Microwave</label></td><td>
+       <input type="radio" id="r5" name = "flooring" class="rd"/>
+       <label for="r5" >Inbuilt Oven</label></td></tr>
+     </table>
      <br><br><br>
   <table>
     <tr><td>
@@ -63,6 +78,7 @@ Click on the area you want to explore costs for
      <input type="submit" value="NEXT" onfocus="window.location.href='bedroom1.html'" class="box2"></td></tr></table>
 </form>
    </div>
+
   </div>
   </div>
 </div>
