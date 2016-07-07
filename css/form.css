@@ -50,7 +50,7 @@ width:100%;
 
 .box2
 {
-  margin-left:60px;
+  margin:auto;
   width:50%;
   border:none;
   border-radius:2px;
@@ -60,6 +60,34 @@ width:100%;
   font-family:'Open Sans', sans-serif;
   background-color:#59BCFB;
 }
+
+.status-button
+{
+  font-family:'Open Sans', sans-serif;
+  border:none;
+  background-color:#1D628B;
+  width:78px;
+  color:#fff;
+  height:28px;
+  border-radius:2px;
+}
+
+.status-button:hover
+{
+  font-family:'Open Sans', sans-serif;
+  background-color:#62b151;
+  color:#fff;
+  height:28px;
+}
+
+.status-button:hover
+{
+  font-family:'Open Sans', sans-serif;
+  background-color:#62b151;
+  color:#fff;
+  height:28px;
+}
+
 
 .form_line
 {
@@ -93,6 +121,7 @@ td
 {
   text-align:left;
   padding-right:20px;
+  font-family:'Open Sans', sans-serif;
 }
 
 th
@@ -148,7 +177,4 @@ th
 
 
 
-.radio
-{
-
-}
+.
